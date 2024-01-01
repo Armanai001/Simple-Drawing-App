@@ -1,0 +1,11 @@
+#navbar {
+    border: 2px solid green;
+    border-radius: 12px;
+    font-size: 34px;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: khaki;
+    margin-bottom: 12px;
+
+}

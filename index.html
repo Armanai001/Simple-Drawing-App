@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Drawing App</title>
+	<link href="./css/index.css" rel="stylesheet">
+	<link href="./css/navbar.css" rel="stylesheet">
+	<link href="./src/logo.png" rel="icon" type="image/png">
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="navbar">
+				<div id="title">
+					<img alt="logo" height="40" src="./src/logo.png" width="50">
+					Welcome To Simple Drawing App
+				</div>
+			</div>
+	
+			<div id="controls">
+				<div id="colors">
+	
+				</div>
+				<div id="additional">
+					<div id="size">
+						<input type="number" id="sizeSelect" value="5">
+					</div>
+		
+					<div id="buttonContainer">
+						<img class="buttons" src="./src/save.png" alt="Save" id="saveBtn" />
+						<img class="buttons" src="./src/delete.png" alt="Delete" id="clearBtn" />
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<canvas id="canvas">
+		</canvas>
+	</div>
+
+</body>
+<script src="./js/index.js"></script>
+
+</html>
